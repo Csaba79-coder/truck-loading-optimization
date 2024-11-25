@@ -22,7 +22,7 @@ public class Truck {
     /**
      * The dimensions of the truck's cargo space (length, width, height).
      */
-    private Dimension dimension;
+    private Dimension dimension; // teljes méret
     /**
      * The maximum permissible weight for each axle.
      * This could be an array where each index represents an axle.
@@ -36,5 +36,5 @@ public class Truck {
      * The dimensions of the refrigerated area in the truck, if available.
      * This is null if the truck does not have a refrigerated area.
      */
-    private Dimension refrigeratedAreaDimension;
+    private Dimension refrigeratedAreaDimension; // hűtő mérete a teherautóban (ha van)
 }

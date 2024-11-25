@@ -20,6 +20,8 @@ public class LoadProjectWithTestData implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         // Példa teherautók és áruk
         Truck truck1 = new Truck("Truck1", 10000, new Dimension(10, 5, 3), new double[]{3000, 2500}, false, null);
+        // A teherautó alap térfogata: 12 m x 5 m x 3 m = 180 m³
+        // A hűtött rész: 3 m x 5 m x 2 m = 30 m³
         Truck truck2 = new Truck("Truck2", 12000, new Dimension(12, 5, 3), new double[]{4000, 3500}, true, new Dimension(3, 5, 2));
 
         Item item1 = new Item("Item1", 2, 2, 1, 1000, false, false);
