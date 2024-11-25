@@ -17,8 +17,8 @@ public class Item {
      * ha valami törékeny, akkor a top layer-en kell lennie, és súlyban nem lehet nehezebb, mint az alatta lévő áru.
      * Ez biztosítja, hogy a törékeny áruk ne sérüljenek meg, és a súlyeloszlás stabil maradjon
      */
-    private boolean fragile;
-    private boolean refrigerated;
+    private boolean isFragile;
+    private boolean isRefrigerated;
     // Térfogat számítása
     public double getVolume() {
         return length * width * height;
