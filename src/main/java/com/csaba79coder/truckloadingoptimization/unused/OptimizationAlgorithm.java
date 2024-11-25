@@ -1,4 +1,4 @@
-package com.csaba79coder.truckloadingoptimization.service;
+package com.csaba79coder.truckloadingoptimization.unused;
 
 import com.csaba79coder.truckloadingoptimization.model.*;
 import org.springframework.stereotype.Service;

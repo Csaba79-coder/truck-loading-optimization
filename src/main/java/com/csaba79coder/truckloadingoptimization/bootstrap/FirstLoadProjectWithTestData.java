@@ -1,7 +1,7 @@
 package com.csaba79coder.truckloadingoptimization.bootstrap;
 
 import com.csaba79coder.truckloadingoptimization.model.*;
-import com.csaba79coder.truckloadingoptimization.service.OptimizationAlgorithm;
+import com.csaba79coder.truckloadingoptimization.unused.OptimizationAlgorithm;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -12,7 +12,7 @@ import java.util.List;
 
 @Component
 @RequiredArgsConstructor
-public class LoadProjectWithTestData implements ApplicationRunner {
+public class FirstLoadProjectWithTestData implements ApplicationRunner {
 
     private final OptimizationAlgorithm optimizationAlgorithm;
 
