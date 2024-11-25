@@ -14,22 +14,18 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OptimizationResult {
-
     /**
      * A list of TruckAllocations, each representing the optimal loading of a specific truck.
      */
     private List<TruckAllocation> truckAllocations;
-
     /**
      * The total volume used across all trucks in the optimization result.
      */
     private double totalVolumeUsed;
-
     /**
      * The total weight used across all trucks in the optimization result.
      */
     private double totalWeightUsed;
-
     /**
      * A flag indicating whether the optimization process was successful.
      */

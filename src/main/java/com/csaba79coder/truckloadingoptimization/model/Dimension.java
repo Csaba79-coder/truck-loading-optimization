@@ -12,7 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Dimension {
-
     /**
      * Length of the cargo space in meters.
      */

@@ -14,22 +14,18 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TruckAllocation {
-
     /**
      * The truck being loaded in this allocation.
      */
     private Truck truck;
-
     /**
      * A list of Allocations, each representing an item allocated to the truck.
      */
     private List<Allocation> allocations;
-
     /**
      * The total volume used by the truck's cargo in this allocation.
      */
     private double totalVolumeUsed;
-
     /**
      * The total weight used by the truck's cargo in this allocation.
      */
