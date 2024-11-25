@@ -2,9 +2,13 @@ package com.csaba79coder.truckloadingoptimization.service;
 
 import com.csaba79coder.truckloadingoptimization.model.Item;
 import com.csaba79coder.truckloadingoptimization.model.Truck;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+@AllArgsConstructor
+@NoArgsConstructor
 public class PlacementOptimizer {
 
     private List<Item> items;
