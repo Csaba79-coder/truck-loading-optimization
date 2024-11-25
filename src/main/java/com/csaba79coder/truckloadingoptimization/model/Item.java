@@ -19,4 +19,8 @@ public class Item {
      */
     private boolean fragile;
     private boolean refrigerated;
+    // Térfogat számítása
+    public double getVolume() {
+        return length * width * height;
+    }
 }
